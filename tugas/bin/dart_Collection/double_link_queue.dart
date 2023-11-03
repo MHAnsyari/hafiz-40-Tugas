@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 void main() {
-  final stack = Queue<String>();
+  final stack = DoubleLinkedQueue<String>();
 
   stack.addLast("muhammad");
   stack.addLast("hafiz");
